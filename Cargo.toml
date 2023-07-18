@@ -6,7 +6,6 @@ authors = [
     "Carol (Nichols || Goulding) <carol.nichols@gmail.com>",
 ]
 edition = "2021"
-include = ["./exercises/"]
 
 [dependencies]
 argh = "0.1"

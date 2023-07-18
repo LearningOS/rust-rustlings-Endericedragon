@@ -1,6 +1,14 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11446073&assignment_repo_type=AssignmentRepo)
-# 2023 春夏季 OS 训练营 
+# 2023 春夏季 OS 训练营
 ## Rustlings 集训班 github classroom 地址：<https://classroom.github.com/a/H1iQ2GNX>
+
+# 个人笔记
+
+## 关于使用VS Code和Rust Analyzer插件练习rustlings无法启用自动补全的问题
+
+仅需在项目目录中启动终端，并运行`rustlings lsp`即可。rustlings将自动生成`rust-project.json`等文件，这将启动VS Code的自动补全等设施。具体信息，可以参阅以下链接。
+
+[![rust analyzer - User Manual](https://rust-analyzer.github.io/assets/rust-analyzer.svg)](https://rust-analyzer.github.io/manual.html#non-cargo-based-projects)
 
 # rustlings 🦀❤️
 
@@ -132,7 +140,7 @@ After every couple of sections, there will be a quiz that'll test your knowledge
 
 ## Enabling `rust-analyzer`
 
-Run the command `rustlings lsp` which will generate a `rust-project.json` at the root of the project, this allows [rust-analyzer](https://rust-analyzer.github.io/) to parse each exercise. 
+Run the command `rustlings lsp` which will generate a `rust-project.json` at the root of the project, this allows [rust-analyzer](https://rust-analyzer.github.io/) to parse each exercise.
 
 ## Continuing On
 
